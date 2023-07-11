@@ -1,4 +1,4 @@
-Pro Tasker
+# Pro Tasker
 
 Deployed Link : - https://pro-tasker-psi.vercel.app/
 Pro Tasker is a task management application built with Next.js, TypeScript, Tailwind CSS, and MST (Mobx State Tree). It allows users to create, view, update, and delete tasks. The application incorporates the specified technologies and follows best practices in terms of code organization, styling, and version control.

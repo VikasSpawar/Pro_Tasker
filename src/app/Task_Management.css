@@ -1,0 +1,30 @@
+
+  
+  .flip-card {
+   
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .flip{
+    transform: rotateY(180deg);
+   
+  }
+  
+  .flip-front,.flip-back  {
+ 
+  
+    backface-visibility: hidden;
+  }
+  
+  .flip-back {
+    transform: rotateY(180deg);
+  }
+  
+
+
+  
+
+ 
+  

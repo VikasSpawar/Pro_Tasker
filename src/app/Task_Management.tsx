@@ -168,7 +168,7 @@ const TaskManagementApp: React.FC = observer(() => {
   return (
     <div className={`rounded-md m-4`}>
       <div className={`mb-4 text-center `}>
-        <h1 className="text-2xl font-bold ">Task Management App</h1>
+        <h1 className="text-3xl font-bold ">Pro Tasker</h1>
       </div>
 
       <div

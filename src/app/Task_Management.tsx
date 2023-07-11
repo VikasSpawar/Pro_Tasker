@@ -172,7 +172,7 @@ const TaskManagementApp: React.FC = observer(() => {
       </div>
 
       <div
-        className={`mb-2 border shadow-md  rounded-xl p-2  sm:sticky  top-0 backdrop-blur-sm bg-white/20 `}
+        className={`mb-2 border shadow-md  rounded-xl p-2  sticky  top-0 backdrop-blur-sm bg-white/20 `}
       >
         <h2 className="text-xl font-bold text-center m-2">Add Task</h2>
         <form

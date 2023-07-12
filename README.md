@@ -63,10 +63,16 @@ Git Version Control
 
 ## Small screens : - 
 
-<img width="2340px" height="1080" src="./public/Pro-tasker-3.jpg" />
+<div>
+  
+<img width="auto" src="./public/Pro-tasker-3.jpg" />
+</div>
 </br>
 </br>
-<img width="2340px" height="1080" src="./public/Pro-tasker 4.jpg" />
+<div>
+  
+<img width="auto"  src="./public/Pro-tasker-4.jpg" />
+</div>
 
 
 

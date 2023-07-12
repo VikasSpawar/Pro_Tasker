@@ -232,11 +232,11 @@ const TaskManagementApp: React.FC = observer(() => {
         </form>
       </div>
 
-      <ul className="grid grid-cols-1  my-4 gap-4 sm:grid-cols-2">
+      <ul className="grid grid-cols-1  my-4 gap-4 sm:grid-cols-2 ">
         {taskStore.tasks.map((task) => (
           <li
             key={task.id}
-            className={`border align-center border-gray-300 rounded-md  shadow-md  p-2 bg-white/20 transition-all ${
+            className={`border  align-center border-gray-300 rounded-md justify-center shadow-md  p-2 bg-white/20 transition-all ${
               playAnimation.type == "handleDeleteTask"
                 ? " hover:ring-8 ring-red-500"
                 : ""
@@ -244,14 +244,14 @@ const TaskManagementApp: React.FC = observer(() => {
           >
             <div className="text-center lg:flex  flex-row items-center  justify-evenly h-full ">
 
-              <div className="w-full flex justify-center ">
+              <div className="w-full flex justify-center">
                 <Image
                   loading="lazy"
                   className={`hover:cursor-pointer rounded-full  bg-slate-100 shadow-md transition cursor-pointer ${
                     playAnimation.type == "Update" ||
                     (playAnimation.type == "handleUpdateTask" &&
                       `hover:rotate-180`)
-                  }`}
+                  } `}
                   onClick={() => handleUpdateTask(task)}
                   width={40}
                   height={40}
@@ -259,19 +259,19 @@ const TaskManagementApp: React.FC = observer(() => {
                     task.status == "complete"
                       ? "./completed.svg"
                       : "./incomplete.svg"
-                  }
+                  } 
                   alt="Incomplete logo"
                 />
               </div>
-              <div className="w-full m-2">
-                <h3 className="text-lg font-bold">{task.title}</h3>
+              <div className="w-full my-2  ">
+                <h3 className="text-lg font-bold ">{task.title}</h3>
               </div>
-              <div className="w-full m-2">
+              <div className="w-full my-2 " >
                 <p >{task.description}</p>
               </div>
 
               {/* { Action buttons } */}
-              <div className="w-full  p-0 m-0 flex justify-evenly">
+              <div className="w-full  p-0 m-0 flex justify-evenly ">
             
 
                 <div className="w-full flex justify-center  rounded-md ">

@@ -65,13 +65,13 @@ Git Version Control
 
 <div>
   
-<img width="74px" heigth="160px" src="./public/Pro-tasker-3.jpg" />
+<img width="100%" src="./public/Pro-tasker-3.jpg" />
 </div>
 </br>
 </br>
 <div>
   
-<img width="74px" heigth="160px"  src="./public/Pro-tasker-4.jpg" />
+<img width="100%"  src="./public/Pro-tasker-4.jpg" />
 </div>
 
 

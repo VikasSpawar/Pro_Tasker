@@ -242,7 +242,8 @@ const TaskManagementApp: React.FC = observer(() => {
                 : ""
             }`}
           >
-            <div className="text-center flex items-center  justify-evenly h-full">
+            <div className="text-center lg:flex  flex-row items-center  justify-evenly h-full ">
+
               <div className="w-full flex justify-center ">
                 <Image
                   loading="lazy"
@@ -263,10 +264,10 @@ const TaskManagementApp: React.FC = observer(() => {
                 />
               </div>
               <div className="w-full m-2">
-                <h3 className="text-lg font-bold break-all">{task.title}</h3>
+                <h3 className="text-lg font-bold">{task.title}</h3>
               </div>
               <div className="w-full m-2">
-                <p className="break-all">{task.description}</p>
+                <p >{task.description}</p>
               </div>
 
               {/* { Action buttons } */}

@@ -2,7 +2,7 @@
 
 ## Deployed Link : - https://pro-tasker-psi.vercel.app/
 </br>
-Pro Tasker is a task management application built with Next.js, TypeScript, Tailwind CSS, and MST (Mobx State Tree). It allows users to create, view, update, and delete tasks. The application incorporates the specified technologies and follows best practices in terms of code organization, styling, and version control.
+Pro Tasker is a task management application built with Next.js, TypeScript, Tailwind CSS, and MST (Mobx State Tree). It allows users to create, view, update, and delete tasks. The application incorporates the specified technologies and follows best practices in terms of code organization, styling, responsiveness, and version control.
 
 ## Installation
 - Clone the repository: git clone <repository_url> 
@@ -16,7 +16,7 @@ Pro Tasker is a task management application built with Next.js, TypeScript, Tail
 ## Pro Tasker provides a user-friendly interface with the following features:
 
 - View tasks: The application displays a list of tasks, showing the title, description, and status of each task.
-- Add a task: Users can create a new task by providing a title, description, and selecting a status.
+- Add a task: Users can create a new task by providing a title, and description, and selecting a status.
 - Edit a task: Users can update the title, description, and status of an existing task.
 - Delete a task: Users can delete a task, removing it from the task list.
 
@@ -54,24 +54,24 @@ Git Version Control
 
 ## Screenshots: - 
 
-## Large screens : - 
+## Large screens: - 
 
 <img src="./public/Pro-tasker-1.PNG" />
 </br>
 </br>
 <img src="./public/Pro-tasker-2.PNG" />
 
-## Small screens : - 
+## Small screens: - 
 
 <div>
   
-<img width="auto" src="./public/Pro-tasker-3.jpg" />
+<img width="74px" heigth="160px" src="./public/Pro-tasker-3.jpg" />
 </div>
 </br>
 </br>
 <div>
   
-<img width="auto"  src="./public/Pro-tasker-4.jpg" />
+<img width="74px" heigth="160px"  src="./public/Pro-tasker-4.jpg" />
 </div>
 
 

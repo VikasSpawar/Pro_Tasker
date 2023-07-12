@@ -52,9 +52,21 @@ Git Version Control
 - MST (Mobx State Tree)
 - Git
 
-Screenshots: - 
+## Screenshots: - 
 
-<img />
+## Large screens : - 
+
+<img src="./public/Pro-tasker-1.PNG" />
+</br>
+</br>
+<img src="./public/Pro-tasker-2.PNG" />
+
+## Small screens : - 
+
+<img src="./public/Pro-tasker-3.jpg" />
+</br>
+</br>
+<img src="./public/Pro-tasker 4.jpg" />
 
 
 
